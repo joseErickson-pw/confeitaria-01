@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <title>confeitiço</title>
+</head>
+
+<body class="fundo">
+    <div id="container">
+        <header>
+            <img src="IMAGENS/menu.png" alt="Menu" id="menuHam" onclick="exibeMenu()">
+            <img class="btFechar" src="IMAGENS/fechar.png" alt="botaoFechar" id="botao" onclick="eliminaMenu()">
+           <a href="index.html"> <img class="logo" src="IMAGENS/logo.png" alt="logo"></a>
+
+            <nav id="menuNavegacao">
+                <ul>
+                    <li><a href="index.html"> <img src="IMAGENS/ICONES/home.png" alt="HOME"></a></li>
+                    <li><a href="02-quem-somos.html">QUEM SOMOS</a></li>
+                    <li><a href="03-lojas.html"><img src="IMAGENS/ICONES/shopping.png" alt="LOJAS"> </a></li>
+                    <li> <a href="04-cardapio.html">CARDÁPIO</a></li>
+                    <li><a href="05-localizacao.html"> <img src="IMAGENS/ICONES/search.png" alt=" LOCALIZAÇÃO"></a></li>
+                    <li><a href="06-encomendas.html">ECNOMENDAS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>
+                PRENCHA FORMULÁRIO
+            </h1>
+            <div class="enco">
+                <form action="procedor.php" method="post" border="2px">
+                    <center>
+                        <label for="campoNome"><strong>Nome:</strong> </label>
+                        <input type="Nome" name="Nome" id="campoNome" required> <br> <br>
+
+                        <label for="campoEmail"><strong>Email:</strong> </label>
+                        <input type="Email" name="Nome" id="campoEmail" required><br> <br>
+
+                        <label for="campoSenha"><strong>Senha:</strong> </label>
+                        <input type="password" name="Senha" id="campoSenha" required>
+                        <br><br>
+                        <label for="campoMensagem"> <strong>Faça uma descrição</strong> </label> <br>
+                        <textarea name="Mensagem" id="campoMensagem" rows="10"></textarea> <br><br>
+
+                        Qual é a Unidade da sua preferência!<br><br>
+
+                        <select name="escolhaOpcao" id="escolhaOpcao" multiple="multiple">
+                            <option selected="selected" value="">Selecione</option>
+                            <option value="1">Baruerui</option>
+                            <option value="2">Osasco</option>
+                            <option value="3">Pinheiros</option>
+                            <option value="4">República</option>
+                            <option value="5">Lapa</option>
+                            <option value="6">Barra Funda</option>
+                            <option value="7">Itapevi</option>
+                       
+
+                        </select> 
+                        <input type="submit" value=" Enviar dados">
+                    </center>
+                </form>
+
+            </div>
+        </main>
+
+    </div>
+
+    <footer>
+        <h3> Fale Conosco</h3>
+        <p> Telefone:11 9330 10242 </p>
+        <p> Insta: @padadriaimperial </p>
+        <p> E-mail: contato@padaria.com.br </p>
+        <a href="https://www.facebook.com/photo/?fbid=1097276521760787&set=a.195019598653155">
+            <img src="IMAGENS/face.png" alt="facebook"> </a>
+        <a href="https://wa.me/5511933010242?text="> <img src="IMAGENS/whatsapp.png" alt="whatsapp"></a>
+        <a href="#"> <img src="IMAGENS/instagram.png" alt="instagram"></a>
+        <a href="https://br.linkedin.com/in/jos%C3%A9-erickson-fernando-nanque-abb572303"> <img
+                src="IMAGENS/linkeding.png" alt="linkeding"></a>
+
+        <p class="creditos"> Desenvolvido por José Erickson Fernando Nanque </p>
+        <br>
+    </footer>
+    <script src="JS/menu-hamburger.js"></script>
+</body>
+
+</html>

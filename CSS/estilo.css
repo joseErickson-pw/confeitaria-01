@@ -1,0 +1,679 @@
+/*FIM DA INDEX HTML*/
+/*mobyle first*/
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+body {
+    background-color: hsla(0, 6%, 81%, 0.733);
+    margin-left: 16px;
+    margin-right: 16px;
+
+}
+
+header {
+    background-color: hsla(354, 18%, 55%, 0.647);
+    text-align: center;
+    justify-content: end;
+    top: 0;
+}
+
+.logo {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 80px;
+    width: 30%;
+}
+
+#menuHam,
+#botao {
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+
+nav {
+    padding: 16px;
+    margin: 8px;
+
+
+
+}
+
+nav>ul>li>a {
+    display: block;
+    padding: 5px;
+    margin-top: 8px;
+    text-decoration: none;
+    font-family: "Leckerli One", cursive;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    background-color: hsl(42, 100%, 50%);
+    border-radius: 15px;
+
+}
+
+article {
+    width: 0 16px 0 16px;
+    max-width: 1280;
+
+}
+
+article>p {
+    text-align: left;
+    margin-left: 16px;
+    margin-top: 24px;
+    margin-right: 16px;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 24px;
+}
+
+#botao {
+    display: none;
+}
+
+main {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 16px;
+    margin-left: 8px;
+    font-size: 2.2rem;
+    font-family: "Leckerli One", cursive;
+    color: #471e1e;
+}
+
+.imgdestaque {
+    width: 100%;
+    max-width: 1280px;
+    margin-top: 16px;
+    border-radius: 0 0 16px 16px;
+}
+
+.cards>div {
+    border-radius: 24px;
+    padding: 16px;
+    margin: 16px;
+}
+
+.cards>div>img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+
+}
+
+.cards>div>p {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: #471e1e;
+
+}
+
+footer {
+    background-color: hsla(354, 66%, 15%, 0.851);
+    height: 230px;
+    max-width: 1280;
+    padding: 16px;
+    margin-top: 24px;
+    text-align: center;
+
+}
+
+footer>h3 {
+    color: hsl(42, 100%, 50%);
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+footer>p {
+    color: hsl(42, 100%, 50%);
+    padding-left: 8px;
+    align-items: center;
+    font-size: 1.2rem;
+
+
+
+}
+
+footer>a {
+    padding-top: 16px;
+    margin-top: 16px;
+    margin-right: 24px;
+    padding: 10px;
+    width: 20px;
+}
+
+.creditos {
+    margin-top: 24px;
+    border-top: solid 1px #471e1e;
+    color: hsl(42, 100%, 50%);
+    padding-top: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.6rem;
+    text-align: right;
+
+}
+
+/*FIM DA INDEX HTML*/
+
+
+
+/* inicio Quem Somos*/
+
+
+main {
+    display: flex;
+}
+
+/*AS NOSSAS LOJAS*/
+.quem-somos {
+    background-color: #3F0D12;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.imgdestaque1 {
+    width: 100%;
+    max-width: 1280px;
+    margin-top: 16px;
+    border-radius: 0 0 16px 16px;
+}
+
+
+.cards1 {
+    background-color: #3F0D12;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards1>div {
+    background-color: #7a7374;
+    border-radius: 24px;
+    padding: 16px;
+    border: 1 solid #ffd930;
+    margin: 16px;
+
+}
+
+.divceta {
+    max-width: 1080;
+    background-color: #3F0D12;
+    height: 25px;
+    color: #ffd930;
+}
+
+.divceta>p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffd930;
+}
+
+.cards1>div>img {
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+footer {
+    background-color: hsla(354, 66%, 15%, 0.851);
+    height: 230px;
+    max-width: 1280;
+    padding: 16px;
+    margin-top: 24px;
+    text-align: center;
+
+}
+
+footer>h3 {
+    color: hsl(42, 100%, 50%);
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+footer>p {
+    color: hsl(42, 100%, 50%);
+    padding-left: 8px;
+    align-items: center;
+    font-size: 1.2rem;
+
+
+
+}
+
+footer>a {
+    padding-top: 16px;
+    margin-top: 16px;
+    margin-right: 24px;
+    padding: 10px;
+    width: 20px;
+}
+
+.creditos {
+    margin-top: 24px;
+    border-top: solid 1px #471e1e;
+    color: hsl(42, 100%, 50%);
+    padding-top: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.6rem;
+    text-align: right;
+
+}
+
+
+/*FIM DE QUEM SOMOS*/
+
+
+
+
+
+/*INÍCIO DA LOJAS*/
+
+.loja {
+    display: flex;
+    justify-content: center;
+
+}
+
+.loja>img {
+    width: 100%;
+    max-width: 1280px;
+    margin-top: 16px;
+    border-radius: 0 0 16px 16px;
+
+}
+
+.loja>p {
+    margin-left: 16px;
+    text-align: justify;
+    padding-top: 65px;
+    line-height: 2.1;
+    color: #471e1e;
+    margin-right: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+
+.lojas {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+
+.lojas>div {
+    border-radius: 24px;
+    padding: 16px;
+    margin: 16px;
+}
+
+.lojas>div>img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.lojas>div>p {
+    margin-left: 20PX;
+    text-align: center;
+    padding-top: 24px;
+    color: #471e1e;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+.venha {
+    margin-top: 16px;
+    margin-left: 8px;
+    font-size: 2.2rem;
+    font-family: "Leckerli One", cursive;
+    color: #471e1e;
+}
+
+.membro {
+    margin-top: 16px;
+    margin-left: 8px;
+    font-size: 2.2rem;
+    font-family: "Leckerli One", cursive;
+    color: #471e1e;
+
+}
+
+footer {
+    background-color: hsla(354, 66%, 15%, 0.851);
+    height: 230px;
+    max-width: 1280;
+    padding: 16px;
+    margin-top: 24px;
+    text-align: center;
+
+}
+
+footer>h3 {
+    color: hsl(42, 100%, 50%);
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+footer>p {
+    color: hsl(42, 100%, 50%);
+    padding-left: 8px;
+    align-items: center;
+    font-size: 1.2rem;
+
+
+
+}
+
+footer>a {
+    padding-top: 16px;
+    margin-top: 16px;
+    margin-right: 24px;
+    padding: 10px;
+    width: 20px;
+}
+
+.creditos {
+    margin-top: 24px;
+    border-top: solid 1px #471e1e;
+    color: hsl(42, 100%, 50%);
+    padding-top: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.6rem;
+    text-align: right;
+
+}
+
+
+/*FIM DA LOJAS*/
+
+
+
+
+/*INICIO DE CARDAPIO*/
+
+
+
+.cards2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.cards2>div {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+
+
+}
+
+.cards2>h2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: "Leckerli One", cursive;
+    color: #471e1e;
+    font-size: 2.3rem;
+}
+
+.cards2>div>img {
+    width: 100%;
+    border-radius: 0 55px 0 55px;
+}
+
+H2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: "Leckerli One", cursive;
+    color: #471e1e;
+    font-size: 2.3rem;
+
+}
+
+main>di {
+   
+    width: 160px;
+    height: 40px;
+
+}
+
+main>.saibamais {
+    background-color:  #3F0D12; 
+    margin-top: 16px;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    font-family: "Leckerli One", cursive;
+    color:hsl(42, 100%, 50%);
+    font-size: 1.2rem; 
+}
+
+footer {
+    background-color: hsla(354, 66%, 15%, 0.851);
+    height: 230px;
+    max-width: 1280;
+    padding: 16px;
+    margin-top: 24px;
+    text-align: center;
+
+}
+
+footer>h3 {
+    color: hsl(42, 100%, 50%);
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+footer>p {
+    color: hsl(42, 100%, 50%);
+    padding-left: 8px;
+    align-items: center;
+    font-size: 1.2rem;
+
+
+
+}
+
+footer>a {
+    padding-top: 16px;
+    margin-top: 16px;
+    margin-right: 24px;
+    padding: 10px;
+    width: 20px;
+}
+
+.creditos {
+    margin-top: 24px;
+    border-top: solid 1px #471e1e;
+    color: hsl(42, 100%, 50%);
+    padding-top: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.6rem;
+    text-align: right;
+
+}
+
+
+
+/*FIM DE CARDAPIO*/
+
+
+.cardapio>p {
+    margin-left: 20PX;
+    text-align: center;
+    padding-top: 24px;
+    color: #471e1e;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+
+/* INÍCIO DA localização*/
+
+main>h1 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: "Leckerli One", cursive;
+    color: #471e1e;
+    font-size: 2.3rem;
+}
+
+.mapa {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+
+
+}
+
+footer {
+    background-color: hsla(354, 66%, 15%, 0.851);
+    height: 230px;
+    max-width: 1280;
+    padding: 16px;
+    margin-top: 24px;
+    text-align: center;
+
+}
+
+footer>h3 {
+    color: hsl(42, 100%, 50%);
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+footer>p {
+    color: hsl(42, 100%, 50%);
+    padding-left: 8px;
+    align-items: center;
+    font-size: 1.2rem;
+
+
+
+}
+
+footer>a {
+    padding-top: 16px;
+    margin-top: 16px;
+    margin-right: 24px;
+    padding: 10px;
+    width: 20px;
+}
+
+.creditos {
+    margin-top: 24px;
+    border-top: solid 1px #471e1e;
+    color: hsl(42, 100%, 50%);
+    padding-top: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.6rem;
+    text-align: right;
+
+}
+
+
+/* FIM DA localização*/
+
+/*INÍCIO DE ENCOMENDA*/
+.enco {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    justify-content: center;
+    display: flex;
+
+
+}
+.fundo{
+    background-image: url(/IMAGENS/background.jpg);
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.enco>form {
+    background-color: beige;
+    width: 350px;
+    height: 400px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-radius: 24px;
+    border-style: double;
+    border-color: #3F0D12;
+    border-width: 8px;
+}
+
+
+/*INÍCIO DE ENCOMENDA*/
+
+
+
+
+
+
+
+/*Breakpoints*/
+@media(min-width:1024px) {
+
+    #menuHam,
+    #botao {
+        display: none;
+    }
+
+    #menuNavegacao {
+        display: flex;
+        display: inline;
+        justify-content: end;
+        background-color: none;
+        align-items: end;
+        position: relative;
+    }
+
+    #menuNavegacao>ul {
+        display: flex;
+    }
+
+    #header {
+        background-color: none;
+    }
+
+    #menuNavegacao>ul>li> {
+        background-color: none;
+
+    }
+
+    .cards {
+        display: flex;
+    }
+
+    .logo {
+        max-width: 120px;
+    }
+
+    .nav {
+        margin-right: 80px;
+        background-color: none;
+        justify-content: end;
+    }
+}
